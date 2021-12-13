@@ -17,13 +17,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cnotes/local-client":"^1.0.0"
+    "@cnotes/local-client": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^16.11.12",
-    "esbuild": "0.8.26",
-    "typescript": "^4.5.3",
     "@cnotes/local-api": "^1.0.0",
-    "commander": "^8.3.0"
+    "@types/node": "^16.11.12",
+    "commander": "^8.3.0",
+    "esbuild": "0.8.26",
+    "typescript": "^4.5.3"
   }
 }

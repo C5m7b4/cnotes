@@ -1,10 +1,10 @@
 {
   "name": "@cnotes/local-client",
-  "version": "0.1.0",
-  "publishConfig":{
-    "access":"public"
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
   },
-  "files":[
+  "files": [
     "build"
   ],
   "devDependencies": {
@@ -49,7 +49,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepublishOnly":"npm run build"
+    "prepublishOnly": "npm run build"
   },
   "eslintConfig": {
     "extends": [
