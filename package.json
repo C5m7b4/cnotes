@@ -1,10 +1,16 @@
 {
   "name": "root",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   },
   "scripts":{
     "start": "lerna run start --parallel"
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/C5m7b4/cnotes"
   }
 }
